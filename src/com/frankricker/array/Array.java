@@ -86,7 +86,7 @@ public class Array {
         }
         System.out.print(placeHolder + "\n\n");
 
-        System.out.print("The smallest value is: ");
+        System.out.print("The largest value is: ");
         placeHolder = this.internalArray[0];
         for(int x = 0; x < 10; x++){
             if(placeHolder < this.internalArray[x]){
